@@ -1,0 +1,18 @@
+List : là tập hợp các phần tử dữ liệu bất kỳ, có thứ tự xác định ,có thay đổi 
+Tuple: là tập hợp các phần tử dữ liệu bất kỳ, có thứ tự, tính bất biến, không thay đổi
+
+Set:  là tập hợp các phần tử duy nhất, ko có thứ tự, có tính bất biến, có thay đổi
+Dict: tập hợp key-value, ko có thứ tự, key có tính bất biến, value là bất kỳ kiểu dữ liệu nào
+tối ưu lượng lớn giá trị, k thể biết chính xác index của chúng khi sử dụng list,tuple
+
+Kiểu    Đặc trưng	                    Có thể thay đổi (Mutable)	Có thứ tự	Đặt trong dấu	Constructor
+List	Chứa bất kì kiểu dữ liệu nào	x	                            x	        []	        list()
+Tuple	Giá trị không thể thay đổi		                                x	        ()	        tuple()
+Set	    Giá trị là duy nhất	            x		                                    {}	        set()
+Dict	Key: Value		  	            x                                           {}          dict()
+
+Chuyển đổi kiểu dữ liệu: 
+- List <=> Tuple 
+- Dict => Tuple 
+- Dict => Set 
+- List => Set
