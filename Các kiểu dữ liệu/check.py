@@ -4,3 +4,7 @@ print(a)
 print(b)
 print('hello Github')
 print('hello Github part 2')
+
+
+n = '5'
+print(type(n))
